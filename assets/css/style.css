@@ -1,19 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Homemade+Apple&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Homemade+Apple&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
-    text-decoration: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
 }
 
-nav{
-    display: flex;
-    align-items: center;
+.flexCenter {
+  display: flex;
+  align-items: center;
+}
 
-    a{
-        color: #000;
+nav {
+    justify-content: space-between;
+    padding: 20px;
+  a {
+    color: #000;
+  }
+  .navFeatures {
+    gap: 10px;
+
+    .navBtns{
+        gap: 10px;
     }
+    .navSocials{
+        gap: 10px;
+    }
+  }
 }
-
